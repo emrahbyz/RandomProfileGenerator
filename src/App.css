@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1e2c1e;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23aca992' fill-opacity='1'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.profileDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 2px solid rgb(58, 54, 54);
+  background-color: rgb(64, 138, 88);
+  border-radius: 20px;
+  padding: 10px;
+}
+h1 {
+  color: rgb(5, 2, 12);
+  letter-spacing: 1.1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+img {
+  border: 2px solid rgb(121, 140, 146);
+  height: 250px;
+  width: 250px;
+  border-radius: 63% 37% 50% 50% / 45% 62% 38% 55%;
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.1.px;
+}
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 200px;
+  background-color: #12e012;
+  color: rgb(24, 16, 2);
+  font-weight: bold;
+}
+button:hover {
+  background-color: #3c923c;
+}
